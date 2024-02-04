@@ -49,3 +49,23 @@ int main()
 }
 
 //Code By Pragatheesh.S (github.com/PragatheeshSOS)
+
+/*
+
+INPUT 1:
+5
+10 20 30 40 50
+30
+
+OUTPUT 1:
+Element Found At 3
+
+INPUT 2:
+4
+10 30 40 50
+20
+
+OUTPUT 2:
+Target Doesn't Exits    -1
+
+*/
