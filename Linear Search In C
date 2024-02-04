@@ -1,0 +1,38 @@
+// LINEAR SEARCH...
+
+#include<stdio.h>
+
+int main()
+{
+    int n,i,t,c=0;
+    printf("Enter Limit: ");
+    scanf("%d",&n);
+    printf("Enter Elements: ");
+    int a[n];
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("Enter Target Element: ");
+    scanf("%d",&t);
+    
+    for(i=0;i<n;i++)
+    {
+        //c+=1;
+        if(a[i]==t)
+        {
+            c=1;
+            printf("Element Position: ");
+            printf("%d",i+1);
+            break;
+        }
+    }
+    
+    if(c==0)    //if(c==n)
+    {
+        printf("Target Doesn't Exits\t");
+        printf("-1");
+    }
+}
+
+Code By Pragatheesh.S (githubcom/PragatheeshSOS)
